@@ -4,8 +4,8 @@ from binance.client import Client
 import joblib
 import os
 
-api_key = os.getenv("BINANCE_API_KEY")
-api_secret = os.getenv("BINANCE_API_SECRET")
+api_key = os.getenv("GYNJNQMnkYgVMiYjBtwVNIDHZMzjBe27Ge2xtEws5JI15uFfKENJ2gGtD9BXatU8")
+api_secret = os.getenv("Arqiw2MdKFLzro962MuURM7TY0LXseQbFl8AewjUPtblxziUdIbwN4NtsDnEpHPh")
 client = Client(api_key, api_secret)
 
 def fetch_binance_data(symbol='BTCUSDT', interval='1d', lookback_days=400):
